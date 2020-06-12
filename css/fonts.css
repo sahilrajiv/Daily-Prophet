@@ -1,0 +1,330 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'headline_onehplhs';
+    src: url('/fonts/headoh__-webfont.woff2') format('woff2'),
+         url('fonts/headoh__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'RoundedRelief';
+    src:url('fonts/RoundedRelief.ttf.woff') format('woff'),
+        url('fonts/RoundedRelief.ttf.eot'),
+        url('fonts/RoundedRelief.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GoldRush';
+    src:url('fonts/GoldRush.ttf.woff') format('woff'),
+        url('fonts/GoldRush.ttf.svg#GoldRush') format('svg'),
+        url('fonts/GoldRush.ttf.eot'),
+        url('fonts/GoldRush.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '12th-c-Abbey';
+    src:url('fonts/12th-c-Abbey.ttf.woff') format('woff'),
+        url('fonts/12th-c-Abbey.ttf.svg#12th-c-Abbey') format('svg'),
+        url('fonts/12th-c-Abbey.ttf.eot'),
+        url('fonts/12th-c-Abbey.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BlackCastleMF';
+    src: url('fonts/BlackCastleMF.woff2') format('woff2'),
+        url('fonts/BlackCastleMF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mugglenews';
+    src: url('fonts/Mugglenews.woff2') format('woff2'),
+        url('fonts/Mugglenews.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roman Antique';
+    src: url('fonts/RomanAntique.woff2') format('woff2'),
+        url('fonts/RomanAntique.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hultog';
+    src: url('fonts/Hultog.woff2') format('woff2'),
+        url('fonts/Hultog.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Biggen';
+    src: url('fonts/Biggen.woff2') format('woff2'),
+        url('fonts/Biggen.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CairoExtended-Regular';
+    src:url('fonts/CairoExtended-Regular.ttf.woff') format('woff'),
+        url('fonts/CairoExtended-Regular.ttf.svg#CairoExtended-Regular') format('svg'),
+        url('fonts/CairoExtended-Regular.ttf.eot'),
+        url('fonts/CairoExtended-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Old-English-Five';
+    src:url('fonts/Old-English-Five.ttf.woff') format('woff'),
+        url('fonts/Old-English-Five.ttf.svg#Old-English-Five') format('svg'),
+        url('fonts/Old-English-Five.ttf.eot'),
+        url('fonts/Old-English-Five.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AstroDotBasic';
+    src: url('AstroDotBasic.woff2') format('woff2'),
+        url('AstroDotBasic.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Astrodings';
+    src: url('Astrodings.woff2') format('woff2'),
+        url('Astrodings.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+
+.headline{font-family: 'headline_onehplhs';}
+.rounded-relief{ font-family: 'RoundedRelief';}
+.Abbey{font-family: '12th-c-Abbey';}
+.biggen{ font-family: 'Biggen';}
+.black-castle{   font-family: 'BlackCastleMF';}
+.cairo{font-family: 'CairoExtended-Regular';}
+.goldrush{font-family: 'GoldRush';}
+.hultog{  font-family: 'Hultog';}
+.mugglenews{  font-family: 'Mugglenews';}
+.old-english{    font-family: 'Old-English-Five';}
+.romanantique{ font-family: 'Roman Antique';}
+.astrodot{font-family: 'AstroDotBasic';}
+.astroding{  font-family: 'Astrodings';}
+
+
+.logo {
+	width: 100%;
+	height: auto;
+	justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+/*Symbols*/
+.ai {
+    font-style:normal;
+    color:black;
+    font-weight:bold;
+    font-size:24px;
+    line-height:24px;
+	
+}
+.ai.aries,.ai.taurus,.ai.gemini,.ai.cancer,.ai.leo,.ai.virgo,.ai.libra,.ai.scorpio,.ai.sagittarius,.ai.capricorn,.ai.aquarius,.ai.pisces {
+    font-weight:normal;
+}
+.ai.aries:before {
+    content:"\2648";
+  display:inline;
+  text-decoration:none;
+}
+.ai.taurus:before {
+    content:"\2649";
+}
+.ai.gemini:before {
+    content:"\264A";
+}
+.ai.cancer:before {
+    content:"\264B";
+}
+.ai.leo:before {
+    content:"\264C";
+}
+.ai.virgo:before {
+    content:"\264D";
+}
+.ai.libra:before {
+    content:"\264E";
+}
+.ai.scorpio:before {
+    content:"\264F";
+}
+.ai.sagittarius:before {
+    content:"\2650";
+}
+.ai.capricorn:before {
+    content:"\2651";
+}
+.ai.aquarius:before {
+    content:"\2652";
+}
+.ai.pisces:before {
+    content:"\2653";
+}
+.ai.sun:before {
+    content:"\2609";
+	padding: .5rem;
+}
+.ai.moon:before {
+    content:"\263D";
+}
+.ai.moon-variant:before {
+    content:"\263E";
+}
+.ai.earth:before {
+    content:"\2295";
+}
+.ai.mercury:before {
+    content:"\263F";
+}
+.ai.venus:before {
+    content:"\2640";
+}
+.ai.mars:before {
+    content:"\2642";
+}
+.ai.jupiter:before {
+    content:"\2643";
+}
+.ai.saturn:before {
+    content:"\2644";
+}
+.ai.uranus:before {
+    content:"\2645";
+}
+.ai.neptune:before {
+    content:"\2646";
+}
+.ai.pluto:before {
+    content:"\2647";
+}
+.ai.chiron:before {
+    content:"\26B7";
+}
+.ai.north-node:before {
+    content:"\260A";
+}
+.ai.south-node:before {
+    content:"\260B";
+}
+.ai.part-of-fortune:before {
+    content:"\2297"
+}
+.ai.lilith:before {
+    content:"\26B8";
+}
+.ai.ceres:before {
+    content:"\2A1"
+}
+.ai.juno:before {
+    content:"\26B5";
+}
+.ai.pallas:before {
+    content:"\26B4";
+}
+.ai.vesta:before {
+    content:"\26B6";
+}
+.ai.conjunction:before {
+    content:"\260C"
+}
+.ai.square:before {
+    content:"\25A1"
+}
+.ai.trine:before {
+    content:"\25B3"
+}
+.ai.opposition:before {
+    content:"\260D"
+}
+.ai.semisquare:before {
+    content:"\2220"
+}
+.ai.quintile:before {
+    content:"\051"
+}
+.ai.biquintile:before {
+    content:"\0062\0051"
+}
+.ai.retrograde:before {
+    content:"\211E"
+}
+.ai.comet:before {
+    content:"\2604"
+}
+
+
+
+
+
+.grid {
+	height: 100vh;
+	border: 10px solid orange;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+/*	justify-items:right;*/
+/*	align-items: center;*/
+	grid-gap:10px;
+/*	grid-template-rows: repeat(4, 1fr);*/
+}
+
+.grid-item {
+	border: 5px solid blue;
+	padding: 15px;
+	background-color: pink;
+}
+
+.item-a {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.insignia {
+	margin: 1% 0 0 3%;
+	}
+
+
